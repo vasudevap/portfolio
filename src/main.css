@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Bayon';
+    src: local('Bayon'), url('./assets/fonts/Bayon-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Alata';
+    src: local('Alata'), url('./assets/fonts/Alata-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Chilanka';
+    src: local('Chilanka'), url('./assets/fonts/Chilanka-Regular.ttf');
+}
+
+html body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-family: 'Alata';
+}
