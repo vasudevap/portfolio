@@ -9,29 +9,41 @@ function Landing() {
         <ParallaxLayer
           offset={0}
           speed={0.5}
-          style={{ ...alignCenter, justifyContent: "center" }}
+          style={{
+            ...alignCenter,
+            background: "#253237",
+            justifyContent: "center",
+          }}
         >
-          <p>Scroll to View My Work</p>
+          <div>Scroll to View My Work</div>
         </ParallaxLayer>
         <ParallaxLayer
           sticky={{ start: 1, end: 3 }}
-          style={{ ...alignCenter, justifyContent: "flex-start" }}
+          style={{
+            ...alignCenter,
+            // background: "#805E73",
+            justifyContent: "center",
+          }}
         >
-          <p>My Work:</p>
+          <div>My Work:</div>
         </ParallaxLayer>
         <ParallaxLayer
           offset={1.5}
-          speed={1.5}
-          style={{ ...alignCenter, justifyContent: "flex-end" }}
+          speed={1}
+          style={{
+            ...alignCenter,
+            background: "#253237",
+            justifyContent: "center",
+          }}
         >
-          <p>Work 1</p>
+          <div>Work 1</div>
         </ParallaxLayer>
         <ParallaxLayer
           offset={2.5}
-          speed={1.5}
-          style={{ ...alignCenter, justifyContent: "flex-end" }}
+          speed={1}
+          style={{ ...alignCenter, justifyContent: "center" }}
         >
-          <p>Work 2</p>
+          <div>Work 2</div>
         </ParallaxLayer>
       </Parallax>
     </div>
