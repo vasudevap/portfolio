@@ -13,6 +13,15 @@
     src: local('Chilanka'), url('./assets/fonts/Chilanka-Regular.ttf');
 }
 
+:root {
+    --darkColor1: #211F1F;
+    --darkColor2: #8A5428;
+    --darkColor3: #ADADAD;
+    --lightColor1: #ADADAD;
+    --lightColor2: #8A5428;
+    --lightColor3: #211F1F;
+}
+
 html body {
     width: 100vw;
     height: 100vh;
