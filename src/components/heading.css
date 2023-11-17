@@ -1,0 +1,6 @@
+.headingContainer {
+    padding: 1vh;
+    background-color: var(--darkColor2);
+    font-family: 'Tourney';
+    font-size: 3rem;
+}
