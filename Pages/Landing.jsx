@@ -1,5 +1,5 @@
-import PreHeading from "./PreHeading";
-import Heading from "./Heading";
+import PreHeading from "../src/components/PreHeading";
+import Heading from "../src/components/Heading";
 
 import "./landing.css";
 

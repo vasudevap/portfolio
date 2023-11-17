@@ -23,13 +23,20 @@
     src: local('BebasNeue'), url('./assets/fonts/BebasNeue-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Akronim';
+    src: local('Akronim'), url('./assets/fonts/Akronim-Regular.ttf');
+}
+
 :root {
     --darkColor1: #211F1F;
     --darkColor2: #8A5428;
     --darkColor3: #ADADAD;
+    --darkTitle: #fdfcdc;
     --lightColor1: #ADADAD;
     --lightColor2: #8A5428;
     --lightColor3: #211F1F;
+    --lightTitle: #fdfcdc;
 }
 
 html body {
@@ -39,5 +46,5 @@ html body {
     font-family: 'Alata';
     text-align: center;
     font-size: 3vh;
-    letter-spacing: .15em;
+    letter-spacing: .08em;
 }
