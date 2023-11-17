@@ -1,9 +1,11 @@
 import PreHeading from "./PreHeading";
+import "./landing.css";
 
 function Landing() {
   return (
-    // <div>This is me</div>
-    <div style={{ width: "100%", height: "100%", background: "#211F1F" }}></div>
+    <div className="landingContainer">
+      <PreHeading content={{ text: "I KNOW" }} />
+    </div>
   );
 }
 
