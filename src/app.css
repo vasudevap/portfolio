@@ -1,3 +1,11 @@
+/* body {
+    background-color: #211F1F;
+
+} */
+
 main {
     padding: 50px;
+    height: 100%;
+    width: 100%;
+    background-color: #211F1F;
 }
