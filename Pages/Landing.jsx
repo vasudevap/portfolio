@@ -1,4 +1,3 @@
-import PreHeading from "../src/components/PreHeading";
 import Heading from "../src/components/Heading";
 
 import "./landing.css";
@@ -6,8 +5,16 @@ import "./landing.css";
 function Landing() {
   return (
     <div className="landingContainer">
-      <PreHeading content={{ text: "I KNOW" }} />
-      <Heading content={{ text: "FRONT END DEVELOPMENT" }} />
+      <div className="inlineTextContainer">
+        <div className="inlineText">Hi!</div>
+        <div className="inlineTextDecorated inlineTextDecoratedBg">Welcome</div>
+        <div className="inlineText">to my site.</div>
+      </div>
+      <div className="inlineTextContainer">
+        <div className="inlineText">Hi!</div>
+        <Heading content={{ text: "PRASHANT" }} />
+      </div>
+
       <div className="contentContainer">
         <div>this is left side</div>
         <div className="contentContainerAvatar"></div>
