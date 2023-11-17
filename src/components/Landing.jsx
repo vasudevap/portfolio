@@ -10,7 +10,7 @@ function Landing() {
       <Heading content={{ text: "FRONT END DEVELOPMENT" }} />
       <div className="contentContainer">
         <div>this is left side</div>
-        <div className="contentContainerMiddle"></div>
+        <div className="contentContainerAvatar"></div>
         <div>this is right side</div>
       </div>
       <div className="tipContainer">
