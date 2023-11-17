@@ -13,6 +13,16 @@
     src: local('Chilanka'), url('./assets/fonts/Chilanka-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Tourney';
+    src: local('Tourney'), url('./assets/fonts/Tourney-VariableFont.ttf');
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: local('BebasNeue'), url('./assets/fonts/BebasNeue-Regular.ttf');
+}
+
 :root {
     --darkColor1: #211F1F;
     --darkColor2: #8A5428;
@@ -26,6 +36,8 @@ html body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    text-align: center;
     font-family: 'Alata';
+    text-align: center;
+    font-size: 3vh;
+    letter-spacing: .15em;
 }

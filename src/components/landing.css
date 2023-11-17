@@ -1,3 +1,24 @@
 .landingContainer {
+    display: flex;
+    flex-flow: column nowrap;
     color: var(--darkColor3);
+}
+
+.contentContainer {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.contentContainerMiddle {
+    background-image: url('../assets/images/PV_hi.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.tipContainer {
+    position: bottom;
+    padding-bottom: 2vh;
 }
