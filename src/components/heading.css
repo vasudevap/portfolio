@@ -1,0 +1,8 @@
+.headingContainer {
+    position: relative;
+    padding: 2vh 3vw;
+    background-color: var(--darkColor2);
+    font-family: 'Akronim';
+    font-size: 3rem;
+    color: #fdfcdc;
+}
