@@ -6,19 +6,17 @@ function Landing() {
   return (
     <div className="landingContainer">
       <div className="inlineTextContainer">
-        <div className="inlineText">Hi!</div>
+        <div>Hi!</div>
         <div className="inlineTextDecorated inlineTextDecoratedBg">Welcome</div>
-        <div className="inlineText">to my site.</div>
+        <div>to my site.</div>
       </div>
-      <div className="inlineTextContainer">
-        <div className="inlineText">Hi!</div>
-        <Heading content={{ text: "PRASHANT" }} />
-      </div>
-
+      <div className="contentContainerAvatar"></div>
       <div className="contentContainer">
-        <div>this is left side</div>
-        <div className="contentContainerAvatar"></div>
-        <div>this is right side</div>
+        <div className="contentContainerLeft">
+          <div>I am</div>
+          <Heading content={{ text: "PRASHANT" }} />
+        </div>
+        <div></div>
       </div>
       <div className="tipContainer">
         {`< select a competency or scroll to view more >`}
