@@ -3,22 +3,28 @@ import Heading from "../src/components/Heading";
 import "./landing.css";
 
 function Landing() {
+  function handleContactMe(e) {
+    console.log(e.target);
+  }
+
   return (
     <div className="landingContainer">
       <div className="inlineTextContainer">
-        <div className="inlineText">Hi!</div>
+        <div>Hi!</div>
         <div className="inlineTextDecorated inlineTextDecoratedBg">Welcome</div>
-        <div className="inlineText">to my site.</div>
+        <div>to my site.</div>
       </div>
-      <div className="inlineTextContainer">
-        <div className="inlineText">Hi!</div>
-        <Heading content={{ text: "PRASHANT" }} />
-      </div>
-
+      <div className="avatar"></div>
+      <button className="contactMeBtn" onClick={handleContactMe}>
+        Contact Me
+      </button>
       <div className="contentContainer">
-        <div>this is left side</div>
-        <div className="contentContainerAvatar"></div>
-        <div>this is right side</div>
+        <div className="contentContainerBottom">
+          <div>I am</div>
+          <Heading content={{ text: "PRASHANT" }} />
+          <div>a full stack web app developer.</div>
+        </div>
+        <div></div>
       </div>
       <div className="tipContainer">
         {`< select a competency or scroll to view more >`}

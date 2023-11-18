@@ -13,56 +13,63 @@
     align-items: center;
 }
 
-/* .inlineText {
-    align-content: center;
-} */
-
 .inlineTextDecorated {
     font-family: 'Akronim';
     font-size: 5vw;
     margin-left: 2vw;
-    margin-right: 1vw;
+    margin-right: 0.3vw;
     padding: 0.5vh 1vw;
     align-content: center;
-    /* background-color: var(--darkColor3); */
-    color: var(--darkColor2);
+    color: var(--darkTitle);
 }
 
 .inlineTextDecoratedBg {
-    background: linear-gradient(to right, var(--darkColor2), var(--darkColor3));
-    ;
-    /* background: linear-gradient(to top, var(--darkColor3)); */
-    background-size: 100px 50px;
+    background-color: var(--darkColor3);
+    background-image: linear-gradient(90deg, transparent 50%, var(--darkColor1) 50%);
+    background-size: .3vw;
+    background-repeat: repeat;
 }
 
 .contentContainer {
     display: flex;
     flex-flow: row wrap;
-    align-items: start;
-    justify-content: space-around;
-    padding: 1vh 1vw;
-
-}
-
-.contentContainerLeft {
-    display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: space-around;
 }
 
-.contentContainerAvatar {
+.avatar {
     background-image: url('../src/assets/images/PV_hi.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 25vh;
     width: 15vw;
-    top: -50px;
+    /* top: -30px; */
     position: relative;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 20px;
 }
+
+.contactMeBtn {
+    width: 15vw;
+    height: 5vh;
+    margin: 0;
+    border-color: var(--darkColor3);
+    background-color: var(--darkColor2);
+    color: var(--darkColor1);
+}
+
+.contentContainerBottom {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    justify-content: space-around;
+    position: relative;
+    left: -3vw;
+}
+
+
 
 .tipContainer {
     position: bottom;
-    padding-bottom: 2vh;
+    padding-top: 5vh;
+    font-family: 'Bayon';
 }
