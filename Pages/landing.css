@@ -26,7 +26,7 @@
 .inlineTextDecoratedBg {
     background-color: var(--darkColor3);
     background-image: linear-gradient(90deg, transparent 50%, var(--darkColor1) 50%);
-    background-size: .2vw;
+    background-size: .3vw;
     background-repeat: repeat;
 }
 
@@ -37,25 +37,39 @@
     justify-content: space-around;
 }
 
-.contentContainerLeft {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: start;
-    justify-content: space-around;
-}
-
-.contentContainerAvatar {
+.avatar {
     background-image: url('../src/assets/images/PV_hi.png');
     background-repeat: no-repeat;
     background-size: contain;
     height: 25vh;
     width: 15vw;
-    top: 5px;
-    position: fixed;
+    /* top: -30px; */
+    position: relative;
     margin: 0 20px;
 }
 
+.contactMeBtn {
+    width: 15vw;
+    height: 5vh;
+    margin: 0;
+    border-color: var(--darkColor3);
+    background-color: var(--darkColor2);
+    color: var(--darkColor1);
+}
+
+.contentContainerBottom {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    justify-content: space-around;
+    position: relative;
+    left: -3vw;
+}
+
+
+
 .tipContainer {
     position: bottom;
-    padding-bottom: 2vh;
+    padding-top: 5vh;
+    font-family: 'Bayon';
 }
