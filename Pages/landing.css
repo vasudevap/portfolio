@@ -13,21 +13,26 @@
     align-items: center;
 }
 
+/* .inlineText {
+    font-family: 'Jango';
+} */
+
 .inlineTextDecorated {
-    font-family: 'Akronim';
-    font-size: 5vw;
+    font-family: 'Bungee';
+    font-size: larger;
     margin-left: 2vw;
-    margin-right: 0.3vw;
     padding: 0.5vh 1vw;
     align-content: center;
     color: var(--darkTitle);
 }
 
 .inlineTextDecoratedBg {
-    background-color: var(--darkColor3);
+    background-color: var(--darkTitle);
     background-image: linear-gradient(90deg, transparent 50%, var(--darkColor1) 50%);
     background-size: .3vw;
     background-repeat: repeat;
+    border-radius: 5px;
+
 }
 
 .contentContainer {
@@ -41,8 +46,8 @@
     background-image: url('../src/assets/images/PV_hi.png');
     background-repeat: no-repeat;
     background-size: contain;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     /* top: -30px; */
     position: relative;
     margin: 0 20px;
@@ -51,28 +56,46 @@
 .contactMeBtn {
     width: 150px;
     position: relative;
-    left: -3.5vw;
+    /* left: -2vw; */
     height: 30px;
     margin: 0;
     border-color: var(--darkColor3);
     background-color: var(--darkColor2);
     color: var(--darkColor3);
-    border-style: solid;
-    border-radius: 10px;
-    font-family: 'Bayon';
+    border: solid 2px;
+    border-radius: 5px;
+    font-family: 'Mono';
+    font-size: 1rem;
+
+}
+
+.contactMeBtn:hover {
+    width: 150px;
+    position: relative;
+    height: 30px;
+    margin: 0;
+    border-color: var(--darkColor3);
+    background-color: var(--darkColor2);
+    color: var(--darkColor3);
+    border: solid 2px;
+    border-radius: 5px;
+    font-family: 'MonoBold';
+    box-shadow: 0px 0px 2px .5px var(--darkTitle);
+
 }
 
 .contentContainerBottom {
     display: flex;
     flex-flow: column nowrap;
-    align-items: start;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     color: var(--darkColor2);
 }
 
 .tipContainer {
     position: bottom;
-    padding-top: 5vh;
-    font-family: 'Bayon';
-    font-size: small;
+    padding-top: 20vh;
+    font-family: 'Carrois';
+    font-size: medium;
+    text-shadow: var(--darkTitle) 1px 0 1px;
 }

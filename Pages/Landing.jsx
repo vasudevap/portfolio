@@ -11,7 +11,7 @@ function Landing() {
     <div className="landingContainer">
       <div className="inlineTextContainer">
         <div>Hi!</div>
-        <div className="inlineTextDecorated inlineTextDecoratedBg">Welcome</div>
+        <div className="inlineTextDecorated ">Welcome</div>
         <div>to my site.</div>
       </div>
       <div className="avatar"></div>
@@ -20,9 +20,10 @@ function Landing() {
       </button>
       <div className="contentContainer">
         <div className="contentContainerBottom">
-          <div>I am</div>
+          <div className="inlineText">I am</div>
           <Heading content={{ text: "PRASHANT" }} />
-          <div>a full stack web app developer.</div>
+          <div>a full stack </div>
+          <div className="inlineTextDecorated ">web app developer.</div>
         </div>
         <div></div>
       </div>
