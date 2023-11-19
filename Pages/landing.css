@@ -41,20 +41,25 @@
     background-image: url('../src/assets/images/PV_hi.png');
     background-repeat: no-repeat;
     background-size: contain;
-    height: 25vh;
-    width: 15vw;
+    height: 150px;
+    width: 150px;
     /* top: -30px; */
     position: relative;
     margin: 0 20px;
 }
 
 .contactMeBtn {
-    width: 15vw;
-    height: 5vh;
+    width: 150px;
+    position: relative;
+    left: -3.5vw;
+    height: 30px;
     margin: 0;
     border-color: var(--darkColor3);
     background-color: var(--darkColor2);
-    color: var(--darkColor1);
+    color: var(--darkColor3);
+    border-style: solid;
+    border-radius: 10px;
+    font-family: 'Bayon';
 }
 
 .contentContainerBottom {
@@ -62,14 +67,12 @@
     flex-flow: column nowrap;
     align-items: start;
     justify-content: space-around;
-    position: relative;
-    left: -3vw;
+    color: var(--darkColor2);
 }
-
-
 
 .tipContainer {
     position: bottom;
     padding-top: 5vh;
     font-family: 'Bayon';
+    font-size: small;
 }

@@ -26,9 +26,7 @@ function Landing() {
         </div>
         <div></div>
       </div>
-      <div className="tipContainer">
-        {`< select a competency or scroll to view more >`}
-      </div>
+      <div className="tipContainer">{`< scroll to view more >`}</div>
     </div>
   );
 }
