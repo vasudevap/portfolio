@@ -4,9 +4,9 @@ import ContactBtn from "../src/components/ContactBtn";
 import Avatar from "../src/components/Avatar";
 import Skill from "../src/components/Skill";
 
-import "./frontEnd.css";
+import "./skillsPage.css";
 
-function FrontEnd() {
+function SkillsPage() {
   const LSFESkills = [
     "CSS",
     "HTML",
@@ -49,4 +49,4 @@ function FrontEnd() {
   );
 }
 
-export default FrontEnd;
+export default SkillsPage;

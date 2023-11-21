@@ -1,7 +1,6 @@
 .contactBtn {
     width: 150px;
     position: relative;
-    /* left: -2vw; */
     height: 30px;
     margin: 0;
     border-color: var(--darkColor3);
