@@ -1,0 +1,10 @@
+.avatar {
+    background-image: url('../src/assets/images/PV_fe.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    height: 30vh;
+    width: 30vw;
+    position: relative;
+    margin: 0 20px;
+}
