@@ -6,8 +6,8 @@ import FrontEnd from "../Pages/FrontEnd";
 function App() {
   return (
     <main>
-      <Landing />
-      {/* <FrontEnd /> */}
+      {/* <Landing /> */}
+      <FrontEnd />
     </main>
   );
 }
