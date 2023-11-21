@@ -1,0 +1,9 @@
+.skill {
+    color: var(--darkColor3);
+    padding: .5vh 0vw;
+}
+
+.skill:hover {
+    color: var(--darkTitle);
+    text-shadow: var(--darkTitle) 1px 0 5px;
+}
