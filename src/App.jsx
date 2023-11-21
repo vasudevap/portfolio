@@ -1,13 +1,13 @@
 import "./app.css";
 
 import Landing from "../Pages/Landing";
-import FrontEnd from "../Pages/FrontEnd";
+import SkillsFe from "../Pages/SkillsPage";
 
 function App() {
   return (
     <main>
       {/* <Landing /> */}
-      <FrontEnd />
+      <SkillsFe />
     </main>
   );
 }
