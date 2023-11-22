@@ -6,45 +6,28 @@ import Skill from "../src/components/Skill";
 
 import "./skillsPage.css";
 
-function SkillsPage() {
-  const LSFESkills = [
-    "CSS",
-    "HTML",
-    "JAVASCRIPT ES6",
-    "AXIOS",
-    "BCRYPT",
-    "JWT",
-  ];
-  const RSFESkills = [
-    "BOOTSTRAP",
-    "TAILWIND",
-    "JQUERY",
-    "REACT",
-    "FRAMER MOTION",
-  ];
+function SkillsPage({ props }) {
   return (
     <div className="pageContainer">
-      <PreHeading content={{ text: "I KNOW" }} />
-      <Heading content={{ text: "FRONT END DEVELOPMENT" }} />
+      <PreHeading content={{ text: props.preHeadingContent }} />
+      <Heading content={{ text: props.headingContent }} />
       <div className="contentContainer">
         <div className="contentContainerLeft">
-          {LSFESkills.map((skill) => (
+          {props.lSContent.map((skill) => (
             <Skill content={{ text: skill }} />
           ))}
         </div>
         <div className="contentContainerMiddle">
-          <Avatar />
+          <Avatar props={{ pageClass: props.middleContent }} />
           <ContactBtn />
         </div>
         <div className="contentContainerRight">
-          {RSFESkills.map((skill) => (
+          {props.rSContent.map((skill) => (
             <Skill content={{ text: skill }} />
           ))}
         </div>
       </div>
-      <div className="tipContainer">
-        {`< select a competency or scroll to view more >`}
-      </div>
+      <div className="tipContainer">{props.bottomTipContent}</div>
     </div>
   );
 }

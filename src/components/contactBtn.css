@@ -1,10 +1,9 @@
 .contactBtn {
-    width: 150px;
     position: relative;
-    height: 30px;
+    padding: 2vh 2vw;
     margin: 0;
     border-color: var(--darkColor3);
-    background-color: var(--darkColor2);
+    background-color: var(--darkColor1);
     color: var(--darkColor3);
     border: solid 2px;
     border-radius: 5px;
@@ -14,16 +13,8 @@
 }
 
 .contactBtn:hover {
-    width: 150px;
-    position: relative;
-    height: 30px;
-    margin: 0;
-    border-color: var(--darkColor3);
-    background-color: var(--darkColor2);
-    color: var(--darkColor3);
-    border: solid 2px;
-    border-radius: 5px;
     font-family: 'MonoBold';
     box-shadow: 0px 0px 2px .5px var(--darkTitle);
-
+    background-color: var(--darkColor2);
+    color: var(--darkTitle);
 }

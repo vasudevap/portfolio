@@ -1,9 +1,12 @@
 import "./avatar.css";
 
-function Avatar() {
+function Avatar({ props }) {
+  console.log(props);
   function handleAvatar(e) {
     console.log(e.target);
   }
-  return <div className="avatar" onClick={handleAvatar}></div>;
+  return (
+    <div className={`avatar ${props.pageClass}`} onClick={handleAvatar}></div>
+  );
 }
 export default Avatar;
