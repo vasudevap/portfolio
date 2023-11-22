@@ -18,7 +18,9 @@ function SkillsPage({ props }) {
           ))}
         </div>
         <div className="contentContainerMiddle">
-          <Avatar props={{ pageClass: props.middleContent }} />
+          <Avatar
+            props={{ pageClass: props.middleContent, linkTo: props.nextLink }}
+          />
           <ContactBtn />
         </div>
         <div className="contentContainerRight">

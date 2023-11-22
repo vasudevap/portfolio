@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Heading from "../components/Heading";
 import Avatar from "../components/Avatar";
 import ContactBtn from "../components/ContactBtn";
@@ -16,10 +17,10 @@ function Landing({ props }) {
         <div className="inlineTextDecorated ">Welcome</div>
         <div>to my site</div>
       </div>
-      {/* <div className="avatar"></div> */}
-      <Avatar props={{ pageClass: props.middleContent }} />
+      <Avatar
+        props={{ pageClass: props.middleContent, linkTo: props.nextLink }}
+      />
       <ContactBtn />
-
       <div className="contentContainer">
         <div className="contentContainerBottom">
           <div className="inlineText">I am</div>
