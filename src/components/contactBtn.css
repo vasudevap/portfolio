@@ -7,13 +7,13 @@
     color: var(--darkColor3);
     border: solid 2px;
     border-radius: 5px;
-    font-family: 'Mono';
+    font-family: 'BungeeInline';
     font-size: 1rem;
 
 }
 
 .contactBtn:hover {
-    font-family: 'MonoBold';
+    font-family: 'BungeeInline';
     box-shadow: 0px 0px 2px .5px var(--darkTitle);
     background-color: var(--darkColor2);
     color: var(--darkTitle);
