@@ -1,14 +1,23 @@
+.linkStyle {
+    /* padding: 0; */
+    /* background: transparent; */
+    /* background-color: transparent; */
+    /* border: none; */
+    color: var(--darkColor3);
+    text-decoration: none;
+
+}
+
 .contactBtn {
     position: relative;
     padding: 2vh 2vw;
     margin: 0;
-    border-color: var(--darkColor3);
     background-color: var(--darkColor1);
-    color: var(--darkColor3);
-    border: solid 2px;
+    border: 2px solid var(--darkColor2);
     border-radius: 5px;
     font-family: 'BungeeInline';
     font-size: 1rem;
+    text-decoration: none;
 
 }
 
@@ -17,4 +26,6 @@
     box-shadow: 0px 0px 2px .5px var(--darkTitle);
     background-color: var(--darkColor2);
     color: var(--darkTitle);
+    border: 3px solid var(--darkTitle);
+
 }

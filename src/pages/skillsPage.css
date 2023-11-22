@@ -9,9 +9,9 @@
 
 .contentContainer {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     align-items: start;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1vh 1vw;
 
 }
