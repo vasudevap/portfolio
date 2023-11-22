@@ -43,6 +43,7 @@ const router = createBrowserRouter([
             props={{
               middleContent: "landingPage",
               bottomTipContent: `< click my avatar to view more >`,
+              nextLink: `/FrontEnd`,
             }}
           />
         ),
@@ -58,6 +59,7 @@ const router = createBrowserRouter([
               middleContent: "fePage",
               rSContent: feSkillsRS,
               bottomTipContent: `< click my avatar to view more >`,
+              nextLink: `/BackEnd`,
             }}
           />
         ),
@@ -73,6 +75,7 @@ const router = createBrowserRouter([
               middleContent: "bePage",
               rSContent: beSkillsRS,
               bottomTipContent: `< click my avatar to view more >`,
+              nextLink: `/Collab`,
             }}
           />
         ),
@@ -88,6 +91,7 @@ const router = createBrowserRouter([
               middleContent: "pmPage",
               rSContent: pmSkillsRS,
               bottomTipContent: `< click my avatar to view more >`,
+              nextLink: `/Deliver`,
             }}
           />
         ),
@@ -102,7 +106,8 @@ const router = createBrowserRouter([
               lSContent: deploySkillsLS,
               middleContent: "deployPage",
               rSContent: deploySkillsRS,
-              bottomTipContent: `< click my avatar to view more >`,
+              bottomTipContent: `< click my avatar for how to reach me >`,
+              nextLink: `/Contact`,
             }}
           />
         ),
@@ -117,7 +122,8 @@ const router = createBrowserRouter([
               lSContent: contactLS,
               middleContent: "contactPage",
               rSContent: contactRS,
-              bottomTipContent: "",
+              bottomTipContent:
+                "< Click my avatar to return to the beginning >",
             }}
           />
         ),

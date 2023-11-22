@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./avatar.css";
 
 function Avatar({ props }) {
@@ -6,7 +7,9 @@ function Avatar({ props }) {
     console.log(e.target);
   }
   return (
-    <div className={`avatar ${props.pageClass}`} onClick={handleAvatar}></div>
+    <Link to={props.linkTo}>
+      <div className={`avatar ${props.pageClass}`}></div>
+    </Link>
   );
 }
 export default Avatar;

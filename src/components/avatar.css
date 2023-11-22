@@ -3,9 +3,9 @@
     background-size: contain;
     background-position: center bottom;
     height: 20vh;
-    width: 100%;
+    width: 20vw;
     position: relative;
-    margin: 0 10vw;
+    margin: 0 1vw;
 }
 
 .landingPage {
