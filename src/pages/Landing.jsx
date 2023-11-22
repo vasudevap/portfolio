@@ -1,5 +1,6 @@
-import Heading from "../src/components/Heading";
-import Avatar from "../src/components/Avatar";
+import Heading from "../components/Heading";
+import Avatar from "../components/Avatar";
+import ContactBtn from "../components/ContactBtn";
 
 import "./landing.css";
 
@@ -17,9 +18,8 @@ function Landing({ props }) {
       </div>
       {/* <div className="avatar"></div> */}
       <Avatar props={{ pageClass: props.middleContent }} />
-      <button className="contactMeBtn" onClick={handleContactMe}>
-        Contact Me
-      </button>
+      <ContactBtn />
+
       <div className="contentContainer">
         <div className="contentContainerBottom">
           <div className="inlineText">I am</div>
@@ -27,9 +27,8 @@ function Landing({ props }) {
           <div>a full stack </div>
           <div className="inlineTextDecorated ">web app developer.</div>
         </div>
-        <div></div>
       </div>
-      <div className="tipContainer">{`< scroll to view more >`}</div>
+      <div className="tipContainer">{props.bottomTipContent}</div>
     </div>
   );
 }
