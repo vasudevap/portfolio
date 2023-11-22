@@ -1,7 +1,9 @@
 import "./app.css";
 
-import Landing from "../Pages/Landing";
-import SkillsPage from "../Pages/SkillsPage";
+import { Outlet } from "react-router-dom";
+
+import Landing from "./pages/Landing";
+import SkillsPage from "./pages/SkillsPage";
 
 function App() {
   const feSkillsLS = [
@@ -29,7 +31,15 @@ function App() {
 
   return (
     <main>
-      {/* <Landing props={{ middleContent: "landingPage" }} /> */}
+      <Outlet />
+
+      {/* <Landing
+        props={{
+          middleContent: "landingPage",
+          bottomTipContent: `< click my avatar to view more >`,
+        }}
+      /> */}
+
       {/* <SkillsPage
         props={{
           preHeadingContent: "I KNOW",
@@ -37,7 +47,7 @@ function App() {
           lSContent: feSkillsLS,
           middleContent: "fePage",
           rSContent: feSkillsRS,
-          bottomTipContent: `< select a competency or scroll to view more >`,
+          bottomTipContent: `< click my avatar to view more >`,
         }}
       /> */}
       {/* <SkillsPage
@@ -47,7 +57,7 @@ function App() {
           lSContent: beSkillsLS,
           middleContent: "bePage",
           rSContent: beSkillsRS,
-          bottomTipContent: `< select a competency or scroll to view more >`,
+          bottomTipContent: `< click my avatar to view more >`,
         }}
       /> */}
       {/* <SkillsPage
@@ -57,19 +67,19 @@ function App() {
           lSContent: pmSkillsLS,
           middleContent: "pmPage",
           rSContent: pmSkillsRS,
-          bottomTipContent: `< select a competency or scroll to view more >`,
+          bottomTipContent: `< click my avatar to view more >`,
         }}
       /> */}
-      <SkillsPage
+      {/* <SkillsPage
         props={{
           preHeadingContent: "I HAVE",
           headingContent: "PACKAGED & DEPLOYED",
           lSContent: deploySkillsLS,
           middleContent: "deployPage",
           rSContent: deploySkillsRS,
-          bottomTipContent: `< select a competency or scroll to view more >`,
+          bottomTipContent: `< click my avatar to view more >`,
         }}
-      />
+      /> */}
     </main>
   );
 }

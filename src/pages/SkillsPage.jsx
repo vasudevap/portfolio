@@ -1,8 +1,8 @@
-import PreHeading from "../src/components/PreHeading";
-import Heading from "../src/components/Heading";
-import ContactBtn from "../src/components/ContactBtn";
-import Avatar from "../src/components/Avatar";
-import Skill from "../src/components/Skill";
+import PreHeading from "../components/PreHeading";
+import Heading from "../components/Heading";
+import ContactBtn from "../components/ContactBtn";
+import Avatar from "../components/Avatar";
+import Skill from "../components/Skill";
 
 import "./skillsPage.css";
 
