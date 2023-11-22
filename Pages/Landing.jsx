@@ -1,8 +1,9 @@
 import Heading from "../src/components/Heading";
+import Avatar from "../src/components/Avatar";
 
 import "./landing.css";
 
-function Landing() {
+function Landing({ props }) {
   function handleContactMe(e) {
     console.log(e.target);
   }
@@ -14,7 +15,8 @@ function Landing() {
         <div className="inlineTextDecorated ">Welcome</div>
         <div>to my site.</div>
       </div>
-      <div className="avatar"></div>
+      {/* <div className="avatar"></div> */}
+      <Avatar props={{ pageClass: props.middleContent }} />
       <button className="contactMeBtn" onClick={handleContactMe}>
         Contact Me
       </button>

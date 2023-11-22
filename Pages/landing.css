@@ -42,21 +42,9 @@
     justify-content: space-around;
 }
 
-.avatar {
-    background-image: url('../src/assets/images/PV_hi.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100px;
-    width: 100px;
-    /* top: -30px; */
-    position: relative;
-    margin: 0 20px;
-}
-
 .contactMeBtn {
     width: 150px;
     position: relative;
-    /* left: -2vw; */
     height: 30px;
     margin: 0;
     border-color: var(--darkColor3);

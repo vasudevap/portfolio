@@ -1,10 +1,33 @@
 .avatar {
-    background-image: url('../src/assets/images/PV_fe.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center bottom;
-    height: 30vh;
-    width: 30vw;
+    height: 20vh;
+    width: 100%;
     position: relative;
-    margin: 0 20px;
+    margin: 0 10vw;
+}
+
+.landingPage {
+    background-image: url('../src/assets/images/PV_hi.png');
+}
+
+.fePage {
+    background-image: url('../src/assets/images/PV_fe.png');
+}
+
+.bePage {
+    background-image: url('../src/assets/images/PV_be.png');
+}
+
+.pmPage {
+    background-image: url('../src/assets/images/PV_pm.png');
+}
+
+.deployPage {
+    background-image: url('../src/assets/images/PV_deploy.png');
+}
+
+.contactPage {
+    background-image: url('../src/assets/images/PV_contact.png');
 }
