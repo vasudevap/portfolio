@@ -23,6 +23,13 @@ const pmSkillsRS = ["GITHUB", "KAISEN", "DOCUMENTATION"];
 const deploySkillsLS = ["HEROKU", "NETLIFY", "NPM", "MONGODB ATLAS"];
 const deploySkillsRS = ["GITHUB PAGES", "DOMAINS", "DNS"];
 
+const contactLS = ["GITHUB", "EMAIL", "LINKEDIN"];
+const contactRS = [
+  "VASUDEVAP",
+  "PRASHANT.VASUDEVA@GMAIL.COM",
+  "www.linkedin.com/in/prashant-vasudeva-16513713",
+];
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -96,6 +103,21 @@ const router = createBrowserRouter([
               middleContent: "deployPage",
               rSContent: deploySkillsRS,
               bottomTipContent: `< click my avatar to view more >`,
+            }}
+          />
+        ),
+      },
+      {
+        path: "/Contact",
+        element: (
+          <Skills
+            props={{
+              preHeadingContent: "I WOULD LOVE",
+              headingContent: "CORRESPONDENCE",
+              lSContent: contactLS,
+              middleContent: "contactPage",
+              rSContent: contactRS,
+              bottomTipContent: "",
             }}
           />
         ),

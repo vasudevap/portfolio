@@ -14,7 +14,7 @@ function Landing({ props }) {
       <div className="inlineTextContainer">
         <div>Hi!</div>
         <div className="inlineTextDecorated ">Welcome</div>
-        <div>to my site.</div>
+        <div>to my site</div>
       </div>
       {/* <div className="avatar"></div> */}
       <Avatar props={{ pageClass: props.middleContent }} />
@@ -25,7 +25,7 @@ function Landing({ props }) {
           <div className="inlineText">I am</div>
           <Heading content={{ text: "PRASHANT" }} />
           <div>a full stack </div>
-          <div className="inlineTextDecorated ">web app developer.</div>
+          <div className="inlineTextDecorated ">developer</div>
         </div>
       </div>
       <div className="tipContainer">{props.bottomTipContent}</div>
