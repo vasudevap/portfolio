@@ -1,12 +1,12 @@
+import { Link } from "react-router-dom";
 import "./contactBtn.css";
 
 function ContactBtn() {
-  function handleContactBtn(e) {
-    console.log(e.target);
-  }
   return (
-    <button className="contactBtn" onClick={handleContactBtn}>
-      Contact Me
+    <button className="contactBtn">
+      <Link className="linkStyle" to="/Contact">
+        Contact Me
+      </Link>
     </button>
   );
 }

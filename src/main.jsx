@@ -124,6 +124,7 @@ const router = createBrowserRouter([
               rSContent: contactRS,
               bottomTipContent:
                 "< Click my avatar to return to the beginning >",
+              nextLink: `/`,
             }}
           />
         ),
