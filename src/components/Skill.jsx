@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import "./skill.css";
+import githubLogo from "../assets/images/githubLogo.png";
 
 function Skill({ content }) {
   console.log(content.text);
