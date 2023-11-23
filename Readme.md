@@ -2,21 +2,19 @@
 
 ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
-deployment in progress...
-
 ## DESCRIPTION
 
 Welcome to my Portfolio project on GitHub.
 
-This repo is an ongoing project. I intend to keep it updated with latest examples of technologies and interests that I have experience in.
+This repo is an **ongoing** project. I intend to keep it updated with latest examples of technologies and interests that I have experience in.
 
-The live URL can be accessed for the latest stable version of the code that I wanted to get out there.
+The [live URL](https://remarkable-lollipop-1831f4.netlify.app/) can be accessed for the latest stable version of the code that I wanted to get out there.
 
 This is KAIZEN in action - continuous improvement!
 
 ## CODER'S LOG
 
-`2023.11.23:` Deployed 1st stable version to Netlify
+> `2023.11.23:` Deployed 1st stable version to Netlify; DNS **prashant.codes** pointed to netlify app
 
 # TABLE OF CONTENTS
 
