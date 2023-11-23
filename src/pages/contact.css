@@ -1,0 +1,19 @@
+.logoImg {
+    height: 40px;
+    margin: 1vh .5vw;
+}
+
+.contentContainerLeft {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    justify-content: center;
+}
+
+.contentContainerRight {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: end;
+    justify-content: center;
+    padding-left: 10vw;
+}

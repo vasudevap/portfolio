@@ -4,3 +4,44 @@ main {
     display: flex;
     flex-flow: column nowrap;
 }
+
+.landingContainer,
+.pageContainer {
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    color: var(--darkColor3);
+    align-items: center;
+    justify-content: center;
+}
+
+.contentContainer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh 1vw;
+}
+
+.inlineTextDecorated {
+    font-family: 'Bungee';
+    font-size: larger;
+    padding: 0.5vh .5vw;
+    margin: 0 .5vw;
+    color: white;
+}
+
+.inlineTextDecoratedBg {
+    background-color: var(--darkColor3);
+    background-image: linear-gradient(90deg, transparent 30%, var(--darkColor1) 20%);
+    background-size: .3vw;
+    background-repeat: repeat;
+    border-radius: 5px;
+}
+
+.tipContainer {
+    position: bottom;
+    padding-top: 20vh;
+    font-family: 'Carrois';
+    font-size: medium;
+}

@@ -4,9 +4,9 @@ import ContactBtn from "../components/ContactBtn";
 import Avatar from "../components/Avatar";
 import Skill from "../components/Skill";
 
-import "./skillsPage.css";
+import "./skills.css";
 
-function SkillsPage({ props }) {
+function Skills({ props }) {
   return (
     <div className="pageContainer">
       <PreHeading content={{ text: props.preHeadingContent }} />
@@ -34,4 +34,4 @@ function SkillsPage({ props }) {
   );
 }
 
-export default SkillsPage;
+export default Skills;

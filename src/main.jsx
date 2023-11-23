@@ -4,8 +4,9 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App.jsx";
-import Skills from "./pages/SkillsPage.jsx";
+import Skills from "./pages/Skills.jsx";
 import Landing from "./pages/Landing.jsx";
+import Contact from "./pages/Contact.jsx";
 
 const feSkillsLS = ["CSS", "HTML", "JAVASCRIPT ES6", "AXIOS", "BCRYPT", "JWT"];
 const feSkillsRS = [
@@ -115,10 +116,10 @@ const router = createBrowserRouter([
       {
         path: "/Contact",
         element: (
-          <Skills
+          <Contact
             props={{
-              preHeadingContent: "I WOULD LOVE",
-              headingContent: "CORRESPONDENCE",
+              preHeadingContent: "I WOULD LOVE TO",
+              headingContent: "GET IN TOUCH",
               lSContent: contactLS,
               middleContent: "contactPage",
               rSContent: contactRS,
