@@ -10,6 +10,7 @@
 
 .contactBtn {
     position: relative;
+    width: 200px;
     padding: 2vh 2vw;
     margin: 0;
     background-color: var(--darkColor1);
