@@ -2,42 +2,21 @@
 
 ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
+deployment in progress...
+
 ## DESCRIPTION
 
-Welcome to my Portfolio.
+Welcome to my Portfolio project on GitHub.
 
-I am Prashant Vasudeva and I am a certified full stack web app developer. My stack includes:
+This repo is an ongoing project. I intend to keep it updated with latest examples of technologies and interests that I have experience in.
 
-- HTML5
-- CSS (native, Bootstrap, Tailwind)
-- JavaScript ES6
-- Handlebars Views
-- JQuery
-- Node.js, NPM
-- Express.js framework (API routes, custom middleware)
-- Bcrypt
-- JWT
-- MySQL
-- MongoDB
-- Mongoose
-- GraphQL,
-- Apollo Server, Atlas
-- React library
-- Framer Motion library
-- Utility libraries (like 'moment.js' for formatting date/time)
+The live URL can be accessed for the latest stable version of the code that I wanted to get out there.
 
-I have experience and an indepth understanding of AGILE methodology for project management and collaboration.
+This is KAIZEN in action - continuous improvement!
 
-I have a working knowledge of GIT and GitHub.
+## CODER'S LOG
 
-I have a BASc (Bachelors of Applied Sciences) in Computer Engineering from the University of Toronto, Toronto, Ontario, Canada.
-
-I have extensive experience (20yrs+) in the field of technology and business applications. I have performed various roles from helpdesk to business analysis to systems architect.
-
-I am diligent and attentive and I produce a high quality product to desired specifications
-.
-
-I am passionate about making a difference on any project I undertake. I love problem solving and creating software.
+`2023.11.23:` Deployed 1st stable version to Netlify
 
 # TABLE OF CONTENTS
 
@@ -77,6 +56,40 @@ Some devices are designed to deny users access to install or run modified versio
 
 Finally, every program is threatened constantly by software patents. States should not allow patents to restrict development and use of software on general-purpose computers, but in those that do, we wish to avoid the special danger that patents applied to a free program could make it effectively proprietary. To prevent this, the GPL assures that patents cannot be used to render the program non-free.
 
-# QUESTIONS
+# ABOUT ME
 
-## Please reach me at [vasudevap](https://github.com/vasudevap) or at my email at contact@prashant.codes
+Welcome to my Portfolio.
+
+I am Prashant Vasudeva and I am a certified full stack web app developer. My stack includes:
+
+- HTML5
+- CSS (native, Bootstrap, Tailwind)
+- JavaScript ES6
+- Handlebars Views
+- JQuery
+- Node.js, NPM
+- Express.js framework (API routes, custom middleware)
+- Bcrypt
+- JWT
+- MySQL
+- MongoDB
+- Mongoose
+- GraphQL,
+- Apollo Server, Atlas
+- React library
+- Framer Motion library
+- Utility libraries (like 'moment.js' for formatting date/time)
+
+I have experience and an indepth understanding of AGILE methodology for project management and collaboration.
+
+I have a working knowledge of GIT and GitHub.
+
+I have a BASc (Bachelors of Applied Sciences) in Computer Engineering from the University of Toronto, Toronto, Ontario, Canada.
+
+I have extensive experience (20yrs+) in the field of technology and business applications. I have performed various roles from helpdesk to business analysis to systems architect.
+
+I am diligent and attentive and I produce a high quality product to desired specifications.
+
+I am passionate about making a difference on any project I undertake. I love problem solving and creating software.
+
+Please reach me at [vasudevap](https://github.com/vasudevap) or at my email at contact@prashant.codes
