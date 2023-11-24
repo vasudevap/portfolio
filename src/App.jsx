@@ -15,7 +15,6 @@ function App() {
       "./assets/images/emailLogo.png",
       "./assets/images/githubLogo.png",
       "./assets/images/linkedinLogo.svg",
-      "./assets/images/noise.svg",
       "./assets/images/PV_be.png",
       "./assets/images/PV_contact.png",
       "./assets/images/PV_deploy.png",

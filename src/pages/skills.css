@@ -1,21 +1,25 @@
 .contentContainerLeft {
     display: flex;
     flex-flow: column nowrap;
-    align-items: start;
-    justify-content: center;
+    flex: 0 1 30%;
+    /* align-items: start;
+    justify-content: center; */
 }
 
 .contentContainerMiddle {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: center;
-    padding: 0 5vw;
+    flex: 0 0 30%;
 }
 
 .contentContainerRight {
     display: flex;
     flex-flow: column nowrap;
+    flex: 0 1 30%;
+    /* position: relative;
+    align-self: flex-end;
     align-items: end;
-    justify-content: center;
+    justify-content: end;
+    flex: 1 0 5vw; */
 }

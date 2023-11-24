@@ -9,7 +9,7 @@ main {
 
 .landingContainer,
 .pageContainer {
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-flow: column nowrap;
     color: var(--darkColor3);
@@ -21,8 +21,8 @@ main {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: center;
-    padding: 1vh 1vw;
+    /* justify-content: center; */
+    /* padding: 1vh 1vw; */
 }
 
 .inlineTextDecorated {
