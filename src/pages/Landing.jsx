@@ -6,7 +6,7 @@ import "./landing.css";
 
 function Landing({ props }) {
   return (
-    <div className="landingContainer">
+    <div className="pageContainer">
       <div className="inlineTextContainer">
         <div>Hi!</div>
         <div className="inlineTextDecorated inlineTextDecoratedBg ">
@@ -18,7 +18,7 @@ function Landing({ props }) {
         props={{ pageClass: props.middleContent, linkTo: props.nextLink }}
       />
       <ContactBtn />
-      <div className="contentContainer">
+      <div className="pageContainer">
         <div className="contentContainerBottom">
           <div className="inlineText">I am</div>
           <Heading content={{ text: "PRASHANT" }} />

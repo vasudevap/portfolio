@@ -12,18 +12,18 @@ function Skills({ props }) {
       <PreHeading content={{ text: props.preHeadingContent }} />
       <Heading content={{ text: props.headingContent }} />
       <div className="contentContainer">
-        <div className="contentContainerLeft">
+        <div className="contentLeft">
           {props.lSContent.map((skill) => (
             <Skill content={{ text: skill }} />
           ))}
         </div>
-        <div className="contentContainerMiddle">
+        <div className="contentMiddle">
           <Avatar
             props={{ pageClass: props.middleContent, linkTo: props.nextLink }}
           />
           <ContactBtn />
         </div>
-        <div className="contentContainerRight">
+        <div className="contentRight">
           {props.rSContent.map((skill) => (
             <Skill content={{ text: skill }} />
           ))}

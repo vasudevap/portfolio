@@ -1,25 +1,20 @@
-.contentContainerLeft {
+.contentLeft {
     display: flex;
-    flex-flow: column nowrap;
-    flex: 0 1 30%;
-    /* align-items: start;
-    justify-content: center; */
-}
-
-.contentContainerMiddle {
-    display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     align-items: center;
-    flex: 0 0 30%;
+    flex: 0 1 200px;
+    /* margin-right: auto; */
 }
 
-.contentContainerRight {
+.contentMiddle {
+    flex: 0 1 400px;
+
+}
+
+.contentRight {
     display: flex;
-    flex-flow: column nowrap;
-    flex: 0 1 30%;
-    /* position: relative;
-    align-self: flex-end;
-    align-items: end;
-    justify-content: end;
-    flex: 1 0 5vw; */
+    flex-flow: column wrap;
+    align-items: center;
+    flex: 0 1 200px;
+    /* margin-left: auto; */
 }
