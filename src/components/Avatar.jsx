@@ -3,9 +3,6 @@ import "./avatar.css";
 
 function Avatar({ props }) {
   console.log(props);
-  function handleAvatar(e) {
-    console.log(e.target);
-  }
   return (
     <Link to={props.linkTo}>
       <div className={`avatar ${props.pageClass}`}></div>

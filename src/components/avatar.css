@@ -2,10 +2,9 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center bottom;
-    height: 25vh;
-    width: 20vw;
-    position: relative;
-    margin: 0 1vw;
+
+    width: 25vw;
+    height: 30vh;
 }
 
 .landingPage {

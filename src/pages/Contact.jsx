@@ -15,13 +15,13 @@ function Contact() {
       <div className="contentContainer">
         <div className="contentContainerLeft">
           <a href="https://github.com/vasudevap">
-            <img src={githubLogo} className="logoImg" />
+            <img src={githubLogo} className="logoImg" alt="Github Logo" />
           </a>
           <a href="https://www.linkedin.com/in/prashant-vasudeva-16513713/">
-            <img src={linkedinLogo} className="logoImg" />
+            <img src={linkedinLogo} className="logoImg" alt="LinkedIn Logo" />
           </a>
           <a href="mailto:prashant.vasudeva@gmail.com">
-            <img src={emailLogo} className="logoImg" />
+            <img src={emailLogo} className="logoImg" alt="email" />
           </a>
         </div>
         <div className="contentContainerRight">
